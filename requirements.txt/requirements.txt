@@ -1,0 +1,13 @@
+streamlit
+supabase
+pandas
+plotly
+opencv-python-headless
+numpy
+Pillow
+streamlit-folium
+folium
+qrcode
+python-dotenv
+requests
+scikit-learn
