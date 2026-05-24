@@ -19,7 +19,7 @@ st.set_page_config(
 # =====================================================
 if "role" not in st.session_state:
     st.warning("Please login")
-    st.switch_page("streamlit_app.py")
+    st.switch_page("app.py")
 
 if st.session_state["role"] != "workforce":
     st.error("Access denied")
@@ -436,4 +436,4 @@ if st.button("Logout"):
 
     st.session_state.clear()
 
-    st.switch_page("streamlit_app.py")
+    st.switch_page("app.py")

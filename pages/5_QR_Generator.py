@@ -7,7 +7,7 @@ from io import BytesIO
 # =====================================================
 if "role" not in st.session_state:
     st.warning("Please login")
-    st.switch_page("streamlit_app.py")
+    st.switch_page("app.py")
 
 if st.session_state["role"] != "manager":
     st.error("Access denied")
